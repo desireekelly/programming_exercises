@@ -1,14 +1,15 @@
 package com.thoughtworks.ipe;
 
 /**
- * Created by Desiree Kelly on 30/11/15.
+ * Print one asterisk to the console
+ *
+ * Created by Desiree Kelly on 30/11/2015.
  */
 
-public class Main {
+public class PrintOneAsterisk {
 
     public static void main(String[] args) {
 
-        //Print one asterisk to the console
         System.out.println("*");
     }
 }
