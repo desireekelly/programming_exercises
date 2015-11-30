@@ -1,4 +1,4 @@
-package com.thoughtworks.ipe;
+package com.desireekelly.ipe.Triangle;
 
 /**
  * Print one asterisk to the console

@@ -1,14 +1,15 @@
-package com.thoughtworks.ipe;
+package com.desireekelly.ipe.Triangle;
 
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
 /**
- * Given a number n, prints n lines, each with one asterisk.
+ * Given a number n, prints n asterisks on one line.
  *
  * Created by Desiree Kelly on 30/11/2015.
  */
-public class VerticalLine {
+
+public class HorizontalLine {
 
     public static void main(String[] args) {
 
@@ -33,9 +34,11 @@ public class VerticalLine {
             }
         }
 
-        //print n number of asterisks on a vertical line based on console input
+        //print n number of asterisks on a horizontal line based on console input
         for(int x = 0; x < number; x++){
-            System.out.println("*");
+            System.out.print("*");
         }
+
+        System.out.println("");
     }
 }

@@ -1,17 +1,18 @@
-package com.thoughtworks.ipe;
+package com.desireekelly.ipe.Triangle;
 
 import java.util.Scanner;
 import java.util.InputMismatchException;
 
 /**
- * Given a number n, prints n asterisks on one line.
+ * Given a number n, print n lines, each with one more asterisk than the last.
  *
  * Created by Desiree Kelly on 30/11/2015.
  */
 
-public class HorizontalLine {
+public class RightTriangle {
 
     public static void main(String[] args) {
+
 
         Scanner input = new Scanner(System.in);
 
@@ -34,11 +35,13 @@ public class HorizontalLine {
             }
         }
 
-        //print n number of asterisks on a horizontal line based on console input
-        for(int x = 0; x < number; x++){
-            System.out.print("*");
+        for(int x = 0; x < number; x++) {
+
+            for (int y = 0; y < x+1; y++){
+                System.out.print("*");
+            }
+            System.out.println();
         }
 
-        System.out.println("");
     }
 }
