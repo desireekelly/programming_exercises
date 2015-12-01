@@ -17,14 +17,14 @@ public class FizzBuzz {
 
         for (int x = 1; x <= 100; x++) {
 
-            if ((x % 3 == 0) && (x % 5 != 0)) {
+            if ((x % 3 == 0) && (x % 5 == 0)) {
+                System.out.println("FizzBuzz");
+            }
+            else if (x % 3 == 0) {
                 System.out.println("Fizz");
             }
-            else if ((x % 5 == 0) && (x % 3 != 0)) {
+            else if (x % 5 == 0) {
                 System.out.println("Buzz");
-            }
-            else if ((x % 3 == 0) && (x % 5 == 0)) {
-                System.out.println("FizzBuzz");
             }
             else {
                 System.out.println(x);
