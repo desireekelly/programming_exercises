@@ -7,33 +7,26 @@ package com.desireekelly.ipe.Diamond;
  */
 public class DiamondWithName {
 
-    public static void main (String[] args){
-
+    public static void main(String[] args) {
         drawDiamond(3, "Desiree");
     }
 
-    public static void drawDiamond(int size, String name){
-
+    public static void drawDiamond(int size, String name) {
         Diamond diamond = new Diamond();
         drawTopTriangle(size);
         System.out.println(name);
         diamond.drawReverseTriangle(size);
-
     }
 
-    public static void drawTopTriangle(int size){
-
+    public static void drawTopTriangle(int size) {
         //loop through rows
-        for(int x = 0; x < size-1; x++)
-        {
+        for (int x = 0; x < size - 1; x++) {
             //print spaces
-            for(int y = 0; y <= size-x; y++)
-            {
+            for (int y = 0; y <= size - x; y++) {
                 System.out.print(" ");
             }
             //print asterisks
-            for(int z = 0 ;z <= 2 * x; z++)
-            {
+            for (int z = 0; z <= 2 * x; z++) {
                 System.out.print("*");
             }
             System.out.println();

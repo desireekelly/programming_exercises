@@ -9,13 +9,13 @@ package com.desireekelly.ipe.Triangle;
 public class RightTriangle {
 
     public static void main(String[] args) {
-
         drawTriangle(3);
     }
 
     public static void drawTriangle(int size) {
+        //loop through rows
         for (int x = 0; x < size; x++) {
-
+            //print asterisks
             for (int y = 0; y < x + 1; y++) {
                 System.out.print("*");
             }

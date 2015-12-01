@@ -9,15 +9,14 @@ package com.desireekelly.ipe.Triangle;
 public class HorizontalLine {
 
     public static void main(String[] args) {
-
         drawHorizontalLine(8);
     }
-        public static void drawHorizontalLine(int size) {
-            //print n number of asterisks on a horizontal line based on console input
-            for (int x = 0; x < size; x++) {
-                System.out.print("*");
-            }
 
-            System.out.println("");
+    public static void drawHorizontalLine(int size) {
+        //print n number of asterisks on a horizontal line
+        for (int x = 0; x < size; x++) {
+            System.out.print("*");
         }
+        System.out.println("");
+    }
 }

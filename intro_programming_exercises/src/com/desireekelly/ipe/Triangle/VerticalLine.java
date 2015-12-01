@@ -8,13 +8,13 @@ package com.desireekelly.ipe.Triangle;
 public class VerticalLine {
 
     public static void main(String[] args) {
-
         drawVerticalLine(3);
     }
-        public static void drawVerticalLine(int size) {
-            //print n number of asterisks on a vertical line based on console input
-            for (int x = 0; x < size; x++) {
-                System.out.println("*");
-            }
+
+    public static void drawVerticalLine(int size) {
+        //print n number of asterisks on a vertical line
+        for (int x = 0; x < size; x++) {
+            System.out.println("*");
         }
+    }
 }

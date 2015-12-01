@@ -1,7 +1,7 @@
 package com.desireekelly.ipe.Triangle;
 
 /**
- * Print one asterisk to the console
+ * Print one asterisk to the console.
  *
  * Created by Desiree Kelly on 30/11/2015.
  */
@@ -9,8 +9,6 @@ package com.desireekelly.ipe.Triangle;
 public class PrintOneAsterisk {
 
     public static void main(String[] args) {
-
-        //print one asterisk to console
         System.out.println("*");
     }
 }
