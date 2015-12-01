@@ -1,8 +1,5 @@
 package com.desireekelly.ipe.Triangle;
 
-import java.util.Scanner;
-import java.util.InputMismatchException;
-
 /**
  * Given a number n, prints n lines, each with one asterisk.
  *
@@ -12,26 +9,7 @@ public class VerticalLine {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
-
-        int number = -1;
-
-        while (number < 0) {
-
-            try {
-
-                System.out.print("Enter a positive integer: ");
-
-                //get number input from console
-                number = input.nextInt();
-            } catch (InputMismatchException e) {
-
-                //display error if number is not a positive integer
-                System.out.println("Invalid Format");
-                input.nextLine();
-            }
-        }
-        drawVerticalLine(number);
+        drawVerticalLine(3);
     }
         public static void drawVerticalLine(int size) {
             //print n number of asterisks on a vertical line based on console input

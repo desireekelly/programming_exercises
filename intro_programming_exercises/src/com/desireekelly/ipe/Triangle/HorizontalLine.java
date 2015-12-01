@@ -1,8 +1,5 @@
 package com.desireekelly.ipe.Triangle;
 
-import java.util.Scanner;
-import java.util.InputMismatchException;
-
 /**
  * Given a number n, prints n asterisks on one line.
  *
@@ -13,26 +10,7 @@ public class HorizontalLine {
 
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
-
-        int number = -1;
-
-        while (number < 0) {
-
-            try {
-
-                System.out.print("Enter a positive integer: ");
-
-                //get number input from console
-                number = input.nextInt();
-            } catch (InputMismatchException e) {
-
-                //display error if number is not a positive integer
-                System.out.println("Invalid Format");
-                input.nextLine();
-            }
-        }
-        drawHorizontalLine(number);
+        drawHorizontalLine(8);
     }
         public static void drawHorizontalLine(int size) {
             //print n number of asterisks on a horizontal line based on console input

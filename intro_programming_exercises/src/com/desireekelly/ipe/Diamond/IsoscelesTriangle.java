@@ -1,8 +1,5 @@
 package com.desireekelly.ipe.Diamond;
 
-import java.util.Scanner;
-import java.util.InputMismatchException;
-
 /**
  * Given a number n, print a centred triangle.
  *
@@ -12,27 +9,7 @@ public class IsoscelesTriangle {
 
     public static void main (String[] args) {
 
-        Scanner input = new Scanner(System.in);
-
-        int number = -1;
-
-        while(number < 0){
-
-            try{
-
-                System.out.print("Enter a positive integer: ");
-
-                //get number input from console
-                number = input.nextInt();
-            }
-            catch(InputMismatchException e){
-
-                //display error if number is not a positive integer
-                System.out.println("Invalid Format");
-                input.nextLine();
-            }
-        }
-        drawTriangle(number);
+        drawTriangle(3);
     }
 
     public static void drawTriangle(int size){
