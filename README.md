@@ -35,7 +35,7 @@ Example when n=3.
 ## Diamond Exercises
 
 ### Isosceles Triangle
-Given a number n, print a centered diamond.
+Given a number n, print a centered triangle.
 Example for n=3:
 
 &nbsp;&nbsp;\*<br />
