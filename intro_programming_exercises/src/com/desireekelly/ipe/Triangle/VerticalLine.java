@@ -12,7 +12,6 @@ public class VerticalLine {
     }
 
     public static void drawVerticalLine(int size) {
-        //print n number of asterisks on a vertical line
         for (int x = 0; x < size; x++) {
             System.out.println("*");
         }

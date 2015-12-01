@@ -13,7 +13,6 @@ public class HorizontalLine {
     }
 
     public static void drawHorizontalLine(int size) {
-        //print n number of asterisks on a horizontal line
         for (int x = 0; x < size; x++) {
             System.out.print("*");
         }
