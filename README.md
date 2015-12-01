@@ -1,6 +1,6 @@
-# Introductory Programming Exercises
+# Programming Exercises
 
-This repository includes the Java source code for the following Introductory Programming Exercises:
+This repository includes the Java source code for the following Programming Exercises:
 
 ##Triangle Exercises
 
