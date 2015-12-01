@@ -4,7 +4,8 @@ This repository includes the Java source code for the following Programming Exer
 
 ##Triangle Exercises
 
-### Print one asterisk to the console.
+### Easiest exercise ever
+Print one asterisk to the console.
 Example:
 
 \*
