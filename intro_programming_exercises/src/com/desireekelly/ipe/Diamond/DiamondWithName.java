@@ -18,13 +18,10 @@ public class DiamondWithName {
     }
 
     public static void drawTopTriangle(int size) {
-        //loop through rows
         for (int x = 0; x < size - 1; x++) {
-            //print spaces
             for (int y = 0; y <= size - x; y++) {
                 System.out.print(" ");
             }
-            //print asterisks
             for (int z = 0; z <= 2 * x; z++) {
                 System.out.print("*");
             }
