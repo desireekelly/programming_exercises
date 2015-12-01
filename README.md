@@ -1,6 +1,10 @@
 # Programming Exercises
 
-This repository includes the Java source code for the following Programming Exercises:
+## Running the Java source code
+1. Use git clone to pull down the source code
+2. Run the source code in IntelliJ/Java.
+
+This repository includes Java solutions for the following Programming Exercises:
 
 ##Triangle Exercises
 
