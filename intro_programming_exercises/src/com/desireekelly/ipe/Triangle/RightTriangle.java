@@ -13,35 +13,35 @@ public class RightTriangle {
 
     public static void main(String[] args) {
 
-
         Scanner input = new Scanner(System.in);
 
         int number = -1;
 
-        while(number < 0){
+        while (number < 0) {
 
-            try{
+            try {
 
                 System.out.print("Enter a positive integer: ");
 
                 //get number input from console
                 number = input.nextInt();
-            }
-            catch(InputMismatchException e){
+            } catch (InputMismatchException e) {
 
                 //display error if number is not a positive integer
                 System.out.println("Invalid Format");
                 input.nextLine();
             }
         }
+        drawTriangle(number);
+    }
 
-        for(int x = 0; x < number; x++) {
+    public static void drawTriangle(int size) {
+        for (int x = 0; x < size; x++) {
 
-            for (int y = 0; y < x+1; y++){
+            for (int y = 0; y < x + 1; y++) {
                 System.out.print("*");
             }
             System.out.println();
         }
-
     }
 }

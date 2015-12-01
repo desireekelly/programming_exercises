@@ -16,26 +16,27 @@ public class VerticalLine {
 
         int number = -1;
 
-        while(number < 0){
+        while (number < 0) {
 
-            try{
+            try {
 
                 System.out.print("Enter a positive integer: ");
 
                 //get number input from console
                 number = input.nextInt();
-            }
-            catch(InputMismatchException e){
+            } catch (InputMismatchException e) {
 
                 //display error if number is not a positive integer
                 System.out.println("Invalid Format");
                 input.nextLine();
             }
         }
-
-        //print n number of asterisks on a vertical line based on console input
-        for(int x = 0; x < number; x++){
-            System.out.println("*");
-        }
+        drawVerticalLine(number);
     }
+        public static void drawVerticalLine(int size) {
+            //print n number of asterisks on a vertical line based on console input
+            for (int x = 0; x < size; x++) {
+                System.out.println("*");
+            }
+        }
 }

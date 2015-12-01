@@ -10,6 +10,7 @@ public class PrintOneAsterisk {
 
     public static void main(String[] args) {
 
+        //print one asterisk to console
         System.out.println("*");
     }
 }

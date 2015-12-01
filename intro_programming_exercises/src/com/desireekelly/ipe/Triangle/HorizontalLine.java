@@ -17,28 +17,29 @@ public class HorizontalLine {
 
         int number = -1;
 
-        while(number < 0){
+        while (number < 0) {
 
-            try{
+            try {
 
                 System.out.print("Enter a positive integer: ");
 
                 //get number input from console
                 number = input.nextInt();
-            }
-            catch(InputMismatchException e){
+            } catch (InputMismatchException e) {
 
                 //display error if number is not a positive integer
                 System.out.println("Invalid Format");
                 input.nextLine();
             }
         }
-
-        //print n number of asterisks on a horizontal line based on console input
-        for(int x = 0; x < number; x++){
-            System.out.print("*");
-        }
-
-        System.out.println("");
+        drawHorizontalLine(number);
     }
+        public static void drawHorizontalLine(int size) {
+            //print n number of asterisks on a horizontal line based on console input
+            for (int x = 0; x < size; x++) {
+                System.out.print("*");
+            }
+
+            System.out.println("");
+        }
 }
