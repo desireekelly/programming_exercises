@@ -45,17 +45,13 @@ public class PrimeFactors {
         ArrayList<Integer> numbers = new ArrayList<Integer>();
 
         //loop through each factor x
-        for(int x = 2; x * x <= n; x++){
+        for(int x = 2; x <= n; x++){
 
             //if x is a factor of n divide
             while(n % x == 0){
                 numbers.add(x);
                 n = n / x;
             }
-        }
-
-        if(n > 1){
-            numbers.add(n);
         }
 
         //Sort ArrayList in ascending order
