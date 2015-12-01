@@ -32,10 +32,11 @@ public class Diamond {
                 input.nextLine();
             }
         }
-        drawDiamond(number);
+        drawTriangle(number);
+        drawReverseTriangle(number);
     }
 
-    public static void drawDiamond(int size){
+    public static void drawTriangle(int size){
 
         //loop through rows
         for(int x = 0; x < size; x++)
@@ -52,8 +53,11 @@ public class Diamond {
             }
             System.out.println();
         }
+    }
 
-        //reverse the loop
+    public static void drawReverseTriangle(int size){
+
+        //reverse the loop from drawTriangle
         for(int x = size -2; x >= 0; x--)
         {
             //print spaces
