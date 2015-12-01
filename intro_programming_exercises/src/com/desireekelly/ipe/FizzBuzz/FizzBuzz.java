@@ -1,8 +1,8 @@
 package com.desireekelly.ipe.FizzBuzz;
 
 /**
- * Prints out the numbers 1 to 100.  Instead of numbers divisible by 3, prints "Fizz".  Instead of numbers divisible by 5,
- * prints "Buzz".  Instead of numbers divisible by 3 and 5, prints "FizzBuzz".
+ * Print out the numbers 1 to 100.  Instead of numbers divisible by 3, print "Fizz".  Instead of numbers divisible by 5,
+ * print "Buzz".  Instead of numbers divisible by 3 and 5, print "FizzBuzz".
  *
  * Created by Desiree Kelly on 1/12/2015.
  */

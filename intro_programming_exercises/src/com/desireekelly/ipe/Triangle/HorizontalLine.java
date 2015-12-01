@@ -1,7 +1,7 @@
 package com.desireekelly.ipe.Triangle;
 
 /**
- * Given a number n, prints n asterisks on one line.
+ * Given a number n, print n asterisks on one line.
  *
  * Created by Desiree Kelly on 30/11/2015.
  */
