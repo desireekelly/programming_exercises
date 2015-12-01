@@ -14,7 +14,6 @@ public class Diamond {
     }
 
     public static void drawReverseTriangle(int size) {
-        //reverse the loop from drawTriangle
         for (int x = size - 2; x >= 0; x--) {
             for (int y = 0; y <= size - x; y++) {
                 System.out.print(" ");
