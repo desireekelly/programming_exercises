@@ -12,10 +12,9 @@ public class DiamondWithName {
     }
 
     public static void drawDiamond(int size, String name) {
-        Diamond diamond = new Diamond();
         drawTopTriangle(size);
         System.out.println(name);
-        diamond.drawReverseTriangle(size);
+        Diamond.drawReverseTriangle(size);
     }
 
     public static void drawTopTriangle(int size) {
